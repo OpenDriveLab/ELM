@@ -1,8 +1,20 @@
-# ELM: Embodied Understanding of Driving Scenarios
+<div id="top" align="center">
+
+# ELM
+
+**Embodied Understanding of Driving Scenarios**
+
+<a href="/docs/dataset_stats.md">
+  <img alt="ELM: v1.0" src="https://img.shields.io/badge/ELM-v1.0-blueviolet"/>
+</a>
+<a href="#license-and-citation">
+  <img alt="License: Apache2.0" src="https://img.shields.io/badge/license-Apache%202.0-blue.svg"/>
+</a>
 
 ![](./assets/teaser.png "Embodied Understanding of Driving Scenarios")
 
-> **Visual Point Cloud Forecasting enables Scalable Autonomous Driving**
+<div>
+
 >
 > [Yunsong Zhou](https://zhouyunsong-sjtu.github.io/), Linyan Huang, Qingwen Bu, Jia Zeng, Tianyu Li, Hang Qiu, Hongzi Zhu, Minyi Guo, Yu Qiao, and [Hongyang Li](https://lihongyang.info/)
 > 
