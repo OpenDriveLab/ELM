@@ -1,8 +1,8 @@
 <div id="top" align="center">
 
-# ELM
+# ELM: Embodied Understanding of Driving Scenarios
 
-**Embodied Understanding of Driving Scenarios**
+**Revive driving scene understanding by delving into the embodiment philosophy**
 
 <a href="/docs/dataset_stats.md">
   <img alt="ELM: v1.0" src="https://img.shields.io/badge/ELM-v1.0-blueviolet"/>
