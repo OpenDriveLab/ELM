@@ -13,7 +13,7 @@
 
 ![](./assets/teaser.png "Embodied Understanding of Driving Scenarios")
 
-<div>
+</div>
 
 >
 > [Yunsong Zhou](https://zhouyunsong-sjtu.github.io/), Linyan Huang, Qingwen Bu, Jia Zeng, Tianyu Li, Hang Qiu, Hongzi Zhu, Minyi Guo, Yu Qiao, and [Hongyang Li](https://lihongyang.info/)
