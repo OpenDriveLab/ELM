@@ -65,7 +65,7 @@ TODO
 
 We acknowledge all the open-source contributors for the following projects to make this work possible:
 
-- [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | [UniAD](https://github.com/OpenDriveLab/UniAD) | [4D Occ](https://github.com/tarashakhurana/4d-occ-forecasting)
+- [BEVFormer](https://github.com/fundamentalvision/BEVFormer) | [UniAD](https://github.com/OpenDriveLab/UniAD)
 
 <a href="https://twitter.com/OpenDriveLab" target="_blank">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/OpenDriveLab?style=social&color=brightgreen&logo=twitter" />
