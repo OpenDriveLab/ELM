@@ -36,19 +36,42 @@
 
 ## News <a name="news"></a>
 
-- `[2024/02]` ELM [paper]() released. *Code and models will be available soon.*
+- `[2024/03]` ELM [paper]() released. *Code and models will be available soon.*
 
 ## Table of Contents
 
 1. [Highlights](#highlights)
 2. [News](#news)
-3. [Results and Model Zoo](#models)
-4. [License and Citation](#license-and-citation)
-5. [Related Resources](#resources)
+3. [TODO List](#todo)
+4. [Installation](#installation)
+5. [License and Citation](#license-and-citation)
+6. [Related Resources](#resources)
 
-## Results and Model Zoo <a name="models"></a>
+## TODO List <a name="todo"></a>
 
-TODO
+- [ ] Release fine-tuning code
+
+## Installation <a name="installation"></a>
+
+1. (Optional) Creating conda environment
+
+```bash
+conda create -n elm python=3.8
+conda activate elm
+```
+
+2. install from [PyPI](https://pypi.org/project/salesforce-lavis/)
+```bash
+pip install salesforce-lavis
+```
+    
+3. Or, for development, you may build from source
+
+```bash
+git clone https://github.com/OpenDriveLab/ELM.git
+cd LAVIS
+pip install -e .
+```
 
 
 ## License and Citation
@@ -65,6 +88,13 @@ TODO
 
 We acknowledge all the open-source contributors for the following projects to make this work possible:
 
-- [Lavis](https://github.com/salesforce/LAVIS) 
+- [Lavis](https://github.com/salesforce/LAVIS) | [DriveLM](https://github.com/OpenDriveLab/DriveLM)
 
+
+<a href="https://twitter.com/OpenDriveLab" target="_blank">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/OpenDriveLab?style=social&color=brightgreen&logo=twitter" />
+  </a>
+
+- [DriveAGI](https://github.com/OpenDriveLab/DriveAGI) | [Survey on BEV Perception](https://github.com/OpenDriveLab/BEVPerception-Survey-Recipe) | [Survey on E2EAD](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving)
+- [UniAD](https://github.com/OpenDriveLab/UniAD) | [OpenLane-V2](https://github.com/OpenDriveLab/OpenLane-V2) | [OccNet](https://github.com/OpenDriveLab/OccNet) | [OpenScene](https://github.com/OpenDriveLab/OpenScene)
 
