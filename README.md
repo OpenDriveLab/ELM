@@ -73,15 +73,34 @@ cd LAVIS
 pip install -e .
 ```
 
+## Dataset <a name="dataset"></a>
+
+
+**Pre-training data.** We collect driving videos from YouTube, nuScenes, Waymo, and Ego4D. 
+Here we provide a sample of 🔗 [YouTube video list](https://docs.google.com/spreadsheets/d/1HV-zOO6bh1sKjimhM1ZBcxWqPxgbalE3FDGyh2UHwPw/edit?usp=sharing) we used.
+For privacy considerations, we are temporarily keeping the complete data labels private.
+
+**Fine-tuning data.** 
+The full set of question and answer pairs for the benchmark can be obtained through this 🔗[data link](). You may need to download the corresponding image data from the official [nuScenes](https://www.nuscenes.org/download) and [Ego4D](https://ego4d-data.org/#download) channels. 
+For a `quick verification` of the pipeline, we recommend downloading the subset dataset of [DriveLM](https://github.com/OpenDriveLab/DriveLM/blob/main/docs/data_prep_nus.md) and organizing the data in line with the format.
+
+
+## Training <a name="training"></a>
+
+
+
 
 ## License and Citation
 
-All assets and code are under the [Apache 2.0 license](./LICENSE) unless specified otherwise.
+All assets and code in this repository are under the [Apache 2.0 license](./LICENSE) unless specified otherwise. The language data is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Other datasets (including nuScenes and Ego4D) inherit their own distribution licenses. Please consider citing our paper and project if they help your research.
 
-If this work is helpful for your research, please consider citing the following BibTeX entry.
-
-``` bibtex
-TODO
+```BibTeX
+@article{sima2023drivelm,
+  title={DriveLM: Driving with Graph Visual Question Answering},
+  author={Sima, Chonghao and Renz, Katrin and Chitta, Kashyap and Chen, Li and Zhang, Hanxue and Xie, Chengen and Luo, Ping and Geiger, Andreas and Li, Hongyang},
+  journal={arXiv preprint arXiv:2312.14150},
+  year={2023}
+}
 ```
 
 ## Related Resources <a name="resources"></a>
