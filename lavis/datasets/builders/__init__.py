@@ -6,66 +6,8 @@
 """
 
 from lavis.datasets.builders.base_dataset_builder import load_dataset_config
-from lavis.datasets.builders.caption_builder import (
-    COCOCapBuilder,
-    MSRVTTCapBuilder,
-    MSVDCapBuilder,
-    VATEXCapBuilder,
-)
-from lavis.datasets.builders.image_text_pair_builder import (
-    ConceptualCaption12MBuilder,
-    ConceptualCaption3MBuilder,
-    VGCaptionBuilder,
-    SBUCaptionBuilder,
-)
-from lavis.datasets.builders.classification_builder import (
-    NLVRBuilder,
-    SNLIVisualEntailmentBuilder,
-)
-from lavis.datasets.builders.imagefolder_builder import ImageNetBuilder
-from lavis.datasets.builders.video_qa_builder import MSRVTTQABuilder, MSVDQABuilder
-from lavis.datasets.builders.vqa_builder import (
-    COCOVQABuilder,
-    OKVQABuilder,
-    VGVQABuilder,
-    GQABuilder,
-)
-from lavis.datasets.builders.retrieval_builder import (
-    MSRVTTRetrievalBuilder,
-    DiDeMoRetrievalBuilder,
-    COCORetrievalBuilder,
-    Flickr30kBuilder,
-)
-from lavis.datasets.builders.dialogue_builder import AVSDDialBuilder
-from lavis.datasets.builders.text_to_image_generation_builder import BlipDiffusionFinetuneBuilder
-
 from lavis.common.registry import registry
-
-__all__ = [
-    "BlipDiffusionFinetuneBuilder",
-    "COCOCapBuilder",
-    "COCORetrievalBuilder",
-    "COCOVQABuilder",
-    "ConceptualCaption12MBuilder",
-    "ConceptualCaption3MBuilder",
-    "DiDeMoRetrievalBuilder",
-    "Flickr30kBuilder",
-    "GQABuilder",
-    "ImageNetBuilder",
-    "MSRVTTCapBuilder",
-    "MSRVTTQABuilder",
-    "MSRVTTRetrievalBuilder",
-    "MSVDCapBuilder",
-    "MSVDQABuilder",
-    "NLVRBuilder",
-    "OKVQABuilder",
-    "SBUCaptionBuilder",
-    "SNLIVisualEntailmentBuilder",
-    "VATEXCapBuilder",
-    "VGCaptionBuilder",
-    "VGVQABuilder",
-    "AVSDDialBuilder",
-]
+from lavis.datasets.builders.vqa_builder import ELMBuilder
 
 
 def load_dataset(name, cfg_path=None, vis_path=None, data_type=None):

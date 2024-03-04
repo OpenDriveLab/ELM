@@ -12,97 +12,14 @@ from lavis.common.registry import registry
 
 from lavis.models.base_model import BaseModel
 
-from lavis.models.albef_models.albef_classification import AlbefClassification
-from lavis.models.albef_models.albef_feature_extractor import AlbefFeatureExtractor
-from lavis.models.albef_models.albef_nlvr import AlbefNLVR
-from lavis.models.albef_models.albef_pretrain import AlbefPretrain
-from lavis.models.albef_models.albef_retrieval import AlbefRetrieval
-from lavis.models.albef_models.albef_vqa import AlbefVQA
-from lavis.models.alpro_models.alpro_qa import AlproQA
-from lavis.models.alpro_models.alpro_retrieval import AlproRetrieval
-
-from lavis.models.blip_models.blip import BlipBase
-from lavis.models.blip_models.blip_caption import BlipCaption
-from lavis.models.blip_models.blip_classification import BlipClassification
-from lavis.models.blip_models.blip_feature_extractor import BlipFeatureExtractor
-from lavis.models.blip_models.blip_image_text_matching import BlipITM
-from lavis.models.blip_models.blip_nlvr import BlipNLVR
-from lavis.models.blip_models.blip_pretrain import BlipPretrain
-from lavis.models.blip_models.blip_retrieval import BlipRetrieval
-from lavis.models.blip_models.blip_vqa import BlipVQA
-
 from lavis.models.blip2_models.blip2 import Blip2Base
-from lavis.models.blip2_models.blip2_opt import Blip2OPT
-from lavis.models.blip2_models.blip2_3dvqa_opt import Blip2VQAOPT
-from lavis.models.blip2_models.blip2_3dvqa_t5 import Blip2VQAT5
-from lavis.models.blip2_models.blip2_t5 import Blip2T5
-from lavis.models.blip2_models.blip2_qformer import Blip2Qformer
-from lavis.models.blip2_models.blip2_image_text_matching import Blip2ITM
-from lavis.models.blip2_models.blip2_3dvqa_t5_ego4d import Blip2VQAT5Ego
-from lavis.models.blip2_models.blip2_3dvqa_t5_ego4d_narration import Blip2VQAT5EgoNarra
-from lavis.models.blip2_models.blip2_3dvqa_t5_combine import Blip2VQAT5Combine
-from lavis.models.blip2_models.blip2_3dvqa_llama import Blip2VQALlm
-from lavis.models.blip2_models.blip2_3dvqa_t5_lr import Blip2VQAT5LR
-from lavis.models.blip2_models.blip2_3dvqa_traffic import Blip2VQAT5TRAFFIC
-from lavis.models.blip2_models.blip2_3dvqa_baseline import Blip2VQAT5BASELINE
-from lavis.models.blip2_models.blip2_3dvqa_emdmulti import Blip2VQAT5EMDMULTI
-from lavis.models.blip2_models.blip2_3dvqa_t5_lr_baseline import Blip2VQAT5LRBASE
-from lavis.models.blip2_models.blip2_3dvqa_t5_lr_timestamp import Blip2VQAT5LRTIME
+from lavis.models.blip2_models.blip2_3dvqa_t5_elm import Blip2VQAT5ELM
 
-from lavis.models.blip2_models.blip2_t5_instruct import Blip2T5Instruct
-from lavis.models.blip2_models.blip2_vicuna_instruct import Blip2VicunaInstruct
-
-from lavis.models.blip_diffusion_models.blip_diffusion import BlipDiffusion
-
-from lavis.models.pnp_vqa_models.pnp_vqa import PNPVQA
-from lavis.models.pnp_vqa_models.pnp_unifiedqav2_fid import PNPUnifiedQAv2FiD
-from lavis.models.img2prompt_models.img2prompt_vqa import Img2PromptVQA
 from lavis.models.med import XBertLMHeadDecoder
 from lavis.models.vit import VisionTransformerEncoder
 from lavis.models.clip_models.model import CLIP
 
-from lavis.models.gpt_models.gpt_dialogue import GPTDialogue
-
 from lavis.processors.base_processor import BaseProcessor
-
-
-__all__ = [
-    "load_model",
-    "AlbefClassification",
-    "AlbefFeatureExtractor",
-    "AlbefNLVR",
-    "AlbefVQA",
-    "AlbefPretrain",
-    "AlbefRetrieval",
-    "AlproQA",
-    "AlproRetrieval",
-    "BaseModel",
-    "BlipBase",
-    "BlipFeatureExtractor",
-    "BlipCaption",
-    "BlipClassification",
-    "BlipDiffusion",
-    "BlipITM",
-    "BlipNLVR",
-    "BlipPretrain",
-    "BlipRetrieval",
-    "BlipVQA",
-    "Blip2Qformer",
-    "Blip2Base",
-    "Blip2ITM",
-    "Blip2OPT",
-    "Blip2VQAOPT",
-    "Blip2T5",
-    "Blip2T5Instruct",
-    "Blip2VicunaInstruct",
-    "PNPVQA",
-    "Img2PromptVQA",
-    "PNPUnifiedQAv2FiD",
-    "CLIP",
-    "VisionTransformerEncoder",
-    "XBertLMHeadDecoder",
-    "GPTDialogue",
-]
 
 
 def load_model(name, model_type, is_eval=False, device="cpu", checkpoint=None):

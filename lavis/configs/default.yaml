@@ -8,4 +8,4 @@ env:
   # cache_root: "cache"
   # For internal use with persistent storage
   # cache_root: "/export/home/.cache/lavis"
-  cache_root: "/cpfs01/user/huanglinyan/projects/EmbodiedScene"
+  cache_root: "./"
