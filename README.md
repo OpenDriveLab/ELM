@@ -87,8 +87,9 @@ For a `quick verification` of the pipeline, we recommend downloading the subset 
 
 ## Training <a name="training"></a>
 
-
-
+```
+todo @linyan
+```
 
 ## License and Citation
 
