@@ -69,7 +69,7 @@ pip install salesforce-lavis
 
 ```bash
 git clone https://github.com/OpenDriveLab/ELM.git
-cd LAVIS
+cd ELM
 pip install -e .
 ```
 
