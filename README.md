@@ -49,7 +49,8 @@
 
 ## TODO List <a name="todo"></a>
 
-- [ ] Release fine-tuning code
+- [x] Release fine-tuning code and data
+- [ ] Release reference checkpoints
 
 ## Installation <a name="installation"></a>
 
@@ -83,20 +84,26 @@ For privacy considerations, we are temporarily keeping the complete data labels 
 **Fine-tuning data.** 
 The full set of question and answer pairs for the benchmark can be obtained through this 🔗[data link](). You may need to download the corresponding image data from the official [nuScenes](https://www.nuscenes.org/download) and [Ego4D](https://ego4d-data.org/#download) channels. 
 For a `quick verification` of the pipeline, we recommend downloading the subset dataset of [DriveLM](https://github.com/OpenDriveLab/DriveLM/blob/main/docs/data_prep_nus.md) and organizing the data in line with the format.
+Please make sure to soft link `nuScenes` and `ego4d` datasets under `data/xx` folder.
+You may need to run `tools/video_clip_processor.py` to pre-process data first.
+Besides, we provide some script used during auto-labeling, you may use these as a reference if you want to customize data.
 
 
 ## Training <a name="training"></a>
 ```bash
 # you can modify the lavis/projects/blip2/train/advqa_t5_elm.yaml
-bash tools/train.sh
+bash scripts/train.sh
 ```
 
 ## Inference
 Modify the  [advqa_t5_elm.yaml](lavis/projects/blip2/train/advqa_t5_elm.yaml#L71) to enable the evaluate as True.
 ```bash
-bash tools/train.sh
+bash scripts/train.sh
 ```
-
+For the evaluation of generated answers, please use the script in `scripts/qa_eval.py`.
+```bash
+bash python qa_eval.py <data_root> <log_name>
+```
 
 
 ## License and Citation
