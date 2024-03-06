@@ -86,10 +86,18 @@ For a `quick verification` of the pipeline, we recommend downloading the subset 
 
 
 ## Training <a name="training"></a>
+```bash
+# you can modify the lavis/projects/blip2/train/advqa_t5_elm.yaml
+bash tools/train.sh
+```
 
+## Inference
+Modify the  [advqa_t5_elm.yaml](lavis/projects/blip2/train/advqa_t5_elm.yaml#L71) to enable the evaluate as True.
+```bash
+bash tools/train.sh
 ```
-todo @linyan
-```
+
+
 
 ## License and Citation
 
