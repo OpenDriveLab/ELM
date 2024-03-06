@@ -102,7 +102,7 @@ bash scripts/train.sh
 ```
 For the evaluation of generated answers, please use the script in `scripts/qa_eval.py`.
 ```bash
-bash python qa_eval.py <data_root> <log_name>
+python scripts/qa_eval.py <data_root> <log_name>
 ```
 
 
