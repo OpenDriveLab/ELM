@@ -36,7 +36,9 @@
 
 ## News <a name="news"></a>
 
-- `[2024/03]` ELM [paper]() released. *Code and models will be available soon.*
+- :fire: Interpretable driving model is launched. Please refer to the [link](https://opendrivelab.com/challenge2024/) for more details.
+- `[2024/03]` ELM [paper]() released.
+- `[2024/03]` ELM code and data initially released.
 
 ## Table of Contents
 
@@ -53,6 +55,7 @@
 
 - [x] Release fine-tuning code and data
 - [ ] Release reference checkpoints
+- [ ] Toolkit for label generation
 
 ## Installation <a name="installation"></a>
 
@@ -86,6 +89,7 @@ For privacy considerations, we are temporarily keeping the complete data labels 
 **Fine-tuning data.** 
 The full set of question and answer pairs for the benchmark can be obtained through this 🔗[data link](). You may need to download the corresponding image data from the official [nuScenes](https://www.nuscenes.org/download) and [Ego4D](https://ego4d-data.org/#download) channels. 
 For a `quick verification` of the pipeline, we recommend downloading the subset dataset of [DriveLM](https://github.com/OpenDriveLab/DriveLM/blob/main/docs/data_prep_nus.md) and organizing the data in line with the format.
+
 Please make sure to soft link `nuScenes` and `ego4d` datasets under `data/xx` folder.
 You may need to run `tools/video_clip_processor.py` to pre-process data first.
 Besides, we provide some script used during auto-labeling, you may use these as a reference if you want to customize data.
