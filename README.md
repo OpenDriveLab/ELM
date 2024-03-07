@@ -44,8 +44,10 @@
 2. [News](#news)
 3. [TODO List](#todo)
 4. [Installation](#installation)
-5. [License and Citation](#license-and-citation)
-6. [Related Resources](#resources)
+5. [Dataset](#dataset)
+6. [Training and Inference](#training)
+7. [License and Citation](#license-and-citation)
+8. [Related Resources](#resources)
 
 ## TODO List <a name="todo"></a>
 
