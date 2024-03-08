@@ -87,7 +87,7 @@ Here we provide a sample of 🔗 [YouTube video list](https://docs.google.com/sp
 For privacy considerations, we are temporarily keeping the complete data labels private.
 
 **Fine-tuning data.** 
-The full set of question and answer pairs for the benchmark can be obtained through this 🔗[data link](). You may need to download the corresponding image data from the official [nuScenes](https://www.nuscenes.org/download) and [Ego4D](https://ego4d-data.org/#download) channels. 
+The full set of question and answer pairs for the benchmark can be obtained through this 🔗[data link](https://drive.google.com/drive/folders/1QFBIrKqxjn9lfv31XMC3wVIdaAbpMwDL?usp=sharing). You may need to download the corresponding image data from the official [nuScenes](https://www.nuscenes.org/download) and [Ego4D](https://ego4d-data.org/#download) channels. 
 For a `quick verification` of the pipeline, we recommend downloading the subset dataset of [DriveLM](https://github.com/OpenDriveLab/DriveLM/blob/main/docs/data_prep_nus.md) and organizing the data in line with the format.
 
 Please make sure to soft link `nuScenes` and `ego4d` datasets under `data/xx` folder.
