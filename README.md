@@ -37,7 +37,7 @@
 ## News <a name="news"></a>
 
 - :fire: Interpretable driving model is launched. Please refer to the [link](https://opendrivelab.com/challenge2024/) for more details.
-- `[2024/03]` ELM [paper]() released.
+- `[2024/03]` ELM [paper](https://arxiv.org/abs/2403.04593) released.
 - `[2024/03]` ELM code and data initially released.
 
 ## Table of Contents
@@ -117,11 +117,11 @@ python scripts/qa_eval.py <data_root> <log_name>
 All assets and code in this repository are under the [Apache 2.0 license](./LICENSE) unless specified otherwise. The language data is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Other datasets (including nuScenes and Ego4D) inherit their own distribution licenses. Please consider citing our paper and project if they help your research.
 
 ```BibTeX
-@article{sima2023drivelm,
-  title={DriveLM: Driving with Graph Visual Question Answering},
-  author={Sima, Chonghao and Renz, Katrin and Chitta, Kashyap and Chen, Li and Zhang, Hanxue and Xie, Chengen and Luo, Ping and Geiger, Andreas and Li, Hongyang},
-  journal={arXiv preprint arXiv:2312.14150},
-  year={2023}
+@article{zhou2024elm,
+  title={Embodied Understanding of Driving Scenarios},
+  author={Zhou, Yunsong and Huang, Linyan and Bu, Qingwen and Zeng, Jia and Li, Tianyu and Qiu, Hang and Zhu, Hongzi and Guo, Minyi and Qiao, Yu and Li, Hongyang},
+  journal={arXiv preprint arXiv:2403.04593},
+  year={2024}
 }
 ```
 
