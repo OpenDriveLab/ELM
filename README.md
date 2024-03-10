@@ -4,6 +4,7 @@
 
 **Revive driving scene understanding by delving into the embodiment philosophy**
 
+<a href="https://arxiv.org/abs/2308.10531"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 <a href="/docs/dataset_stats.md">
   <img alt="ELM: v1.0" src="https://img.shields.io/badge/ELM-v1.0-blueviolet"/>
 </a>
@@ -16,7 +17,7 @@
 </div>
 
 >
-> [Yunsong Zhou](https://zhouyunsong-sjtu.github.io/), Linyan Huang, Qingwen Bu, Jia Zeng, Tianyu Li, Hang Qiu, Hongzi Zhu, Minyi Guo, Yu Qiao, and [Hongyang Li](https://lihongyang.info/)
+> [Yunsong Zhou](https://zhouyunsong-sjtu.github.io/), Linyan Huang, [Qingwen Bu](https://github.com/retsuh-bqw), Jia Zeng, Tianyu Li, Hang Qiu, Hongzi Zhu, Minyi Guo, Yu Qiao, and [Hongyang Li](https://lihongyang.info/)
 > 
 > - Presented by [OpenDriveLab](https://opendrivelab.com/) and Shanghai AI Lab
 > - :mailbox_with_mail: Primary contact: [Yunsong Zhou]((https://zhouyunsong-sjtu.github.io/)) ( zhouyunsong2017@gmail.com ) 
