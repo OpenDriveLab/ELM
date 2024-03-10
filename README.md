@@ -17,7 +17,7 @@
 </div>
 
 >
-> [Yunsong Zhou](https://zhouyunsong-sjtu.github.io/), Linyan Huang, [Qingwen Bu](https://github.com/retsuh-bqw), Jia Zeng, Tianyu Li, Hang Qiu, Hongzi Zhu, Minyi Guo, Yu Qiao, and [Hongyang Li](https://lihongyang.info/)
+> [Yunsong Zhou](https://zhouyunsong-sjtu.github.io/), [Linyan Huang](https://github.com/DevLinyan), [Qingwen Bu](https://github.com/retsuh-bqw), Jia Zeng, Tianyu Li, Hang Qiu, Hongzi Zhu, Minyi Guo, Yu Qiao, and [Hongyang Li](https://lihongyang.info/)
 > 
 > - Presented by [OpenDriveLab](https://opendrivelab.com/) and Shanghai AI Lab
 > - :mailbox_with_mail: Primary contact: [Yunsong Zhou]((https://zhouyunsong-sjtu.github.io/)) ( zhouyunsong2017@gmail.com ) 
