@@ -4,7 +4,7 @@
 
 **Revive driving scene understanding by delving into the embodiment philosophy**
 
-<a href="https://arxiv.org/abs/2308.10531"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/abs/2403.04593"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 <a href="/docs/dataset_stats.md">
   <img alt="ELM: v1.0" src="https://img.shields.io/badge/ELM-v1.0-blueviolet"/>
 </a>
