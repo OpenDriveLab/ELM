@@ -21,7 +21,7 @@
 > 
 > - Presented by [OpenDriveLab](https://opendrivelab.com/) and Shanghai AI Lab
 > - :mailbox_with_mail: Primary contact: [Yunsong Zhou]((https://zhouyunsong-sjtu.github.io/)) ( zhouyunsong2017@gmail.com ) 
-> - [arXiv paper](https://arxiv.org/abs/2403.04593) | [Blog TODO]() | [Slides](https://drive.google.com/file/d/1vbybj03fu-5TSEZ908-zufnQM4d92_BH/view?usp=sharing)
+> - [arXiv paper](https://arxiv.org/abs/2403.04593) | [Blog TODO]() | [Slides](https://drive.google.com/file/d/1ic1TU3Urgczr1DLpc47AGWUttbWd1Lj0/view?usp=sharing)
 > - [CVPR 2024 Autonomous Driving Challenge - Driving with Language](https://opendrivelab.com/challenge2024/)
 
 
