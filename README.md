@@ -21,7 +21,7 @@
 > 
 > - Presented by [OpenDriveLab](https://opendrivelab.com/) and Shanghai AI Lab
 > - :mailbox_with_mail: Primary contact: [Yunsong Zhou]((https://zhouyunsong-sjtu.github.io/)) ( zhouyunsong2017@gmail.com ) 
-> - [arXiv paper](https://arxiv.org/abs/2403.04593) | [Blog TODO]() | [Slides TODO]()
+> - [arXiv paper](https://arxiv.org/abs/2403.04593) | [Blog TODO]() | [Slides](https://drive.google.com/file/d/1vbybj03fu-5TSEZ908-zufnQM4d92_BH/view?usp=sharing)
 > - [CVPR 2024 Autonomous Driving Challenge - Driving with Language](https://opendrivelab.com/challenge2024/)
 
 
@@ -118,7 +118,7 @@ python scripts/qa_eval.py <data_root> <log_name>
 All assets and code in this repository are under the [Apache 2.0 license](./LICENSE) unless specified otherwise. The language data is under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Other datasets (including nuScenes and Ego4D) inherit their own distribution licenses. Please consider citing our paper and project if they help your research.
 
 ```BibTeX
-@article{zhou2024elm,
+@article{zhou2024embodied,
   title={Embodied Understanding of Driving Scenarios},
   author={Zhou, Yunsong and Huang, Linyan and Bu, Qingwen and Zeng, Jia and Li, Tianyu and Qiu, Hang and Zhu, Hongzi and Guo, Minyi and Qiao, Yu and Li, Hongyang},
   journal={arXiv preprint arXiv:2403.04593},
