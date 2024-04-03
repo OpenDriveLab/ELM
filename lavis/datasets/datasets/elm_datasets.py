@@ -81,7 +81,7 @@ class ELMDataset(VQADataset, __DisplMixin):
                 if line_number>=(self.num_threshold-1000):
                     self.num_to_vocab[line_number] = line_content
 
-        self.default_drivelm()
+        self.default_drivelm(ann_paths)
         print("The number of data: ", len(self.questions))
 
 
@@ -468,7 +468,7 @@ class ELMDatasetEvalDataset(VQADataset, __DisplMixin):
                     self.num_to_vocab[line_number] = line_content
 
 
-        self.default_drivelm()
+        self.default_drivelm(ann_paths)
         print("The number of data: ", len(self.questions))
 
         self.questions.extend(self.questions)
