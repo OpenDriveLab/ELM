@@ -12,7 +12,7 @@ from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
-from lavis.datasets.data_utils load_pickle
+from lavis.datasets.data_utils import load_pickle
 import re
 import cv2
 from tqdm import tqdm
