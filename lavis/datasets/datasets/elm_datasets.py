@@ -317,7 +317,7 @@ class ELMDataset(VQADataset, __DisplMixin):
                         self.images.append(img_path)
 
     def default_boxqa(self, ann_paths):
-        self.annotation = json.load(open("data/embodied/BOXQA_train_v3.json", "r"))
+        self.annotation = json.load(open("data/box_detection_train.json", "r"))
         self.data_info = pickle.load(open("data/nuscenes/bevdetv2-nuscenes_infos_trainval.pkl", "rb"))["infos"]
         for idx, info in enumerate(self.data_info):
             scene_token = info['scene_token']
@@ -575,7 +575,7 @@ class ELMDatasetEvalDataset(VQADataset, __DisplMixin):
                         self.images.append(img_path)
 
     def default_boxqa(self, ann_paths):
-        self.annotation = json.load(open("data/embodied/BOXQA_val_v3.json", "r"))
+        self.annotation = json.load(open("data/box_detection_val.json", "r"))
         self.data_info = pickle.load(open("data/nuscenes/bevdetv2-nuscenes_infos_trainval.pkl", "rb"))["infos"]
         for idx, info in enumerate(self.data_info):
             scene_token = info['scene_token']
