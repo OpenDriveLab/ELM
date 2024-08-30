@@ -55,8 +55,8 @@
 ## TODO List <a name="todo"></a>
 
 - [x] Release fine-tuning code and data
-- [ ] Release reference checkpoints
-- [ ] Toolkit for label generation
+- [x] Release reference checkpoints
+- [x] Toolkit for label generation
 
 ## Installation <a name="installation"></a>
 
@@ -85,7 +85,7 @@ pip install -e .
 
 **Pre-training data.** We collect driving videos from YouTube, nuScenes, Waymo, and Ego4D. 
 Here we provide a sample of 🔗 [YouTube video list](https://docs.google.com/spreadsheets/d/1HV-zOO6bh1sKjimhM1ZBcxWqPxgbalE3FDGyh2UHwPw/edit?usp=sharing) we used.
-For privacy considerations, we are temporarily keeping the complete data labels private.
+For privacy considerations, we are temporarily keeping the full-set data labels private. Part of pre-training data and reference checkpoints can be found in :floppy_disk: [google drive](https://drive.google.com/drive/folders/1n4S0A4k8_9yDFIPIPWH_JLTUQ6yFc8ME?usp=sharing).
 
 **Fine-tuning data.** 
 The full set of question and answer pairs for the benchmark can be obtained through this 🔗[data link](https://drive.google.com/drive/folders/1QFBIrKqxjn9lfv31XMC3wVIdaAbpMwDL?usp=sharing). You may need to download the corresponding image data from the official [nuScenes](https://www.nuscenes.org/download) and [Ego4D](https://ego4d-data.org/#download) channels. 
