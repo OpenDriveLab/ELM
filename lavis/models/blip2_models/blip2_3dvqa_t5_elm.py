@@ -69,9 +69,12 @@ class Blip2VQAT5ELM(Blip2Base):
         for layer in self.Qformer.bert.encoder.layer:
             layer.output = None
             layer.intermediate = None
-              
+
         self.t5_tokenizer = T5TokenizerFast.from_pretrained(t5_model)
         self.origin_length = len(self.t5_tokenizer)
+
+        # location_tokens = self.location_token_init() # uncomment this if there existing bugs in loading ckpts, because we change the vocab table in some ckpts.
+        # self.t5_tokenizer.add_tokens(location_tokens)
 
         t5_config = T5Config.from_pretrained(t5_model)
         t5_config.dense_act_fn = "gelu"
@@ -103,23 +106,15 @@ class Blip2VQAT5ELM(Blip2Base):
                                             randomize_initial_slots=False)
 
         self.check = True
+    
+    def location_token_init(self):
+        # we add some new vocabs in our model
+        location_tokens = []
+        location_tokens.append("<c")
+        location_tokens.append("<bin_")
+        location_tokens.append("CAM_FRONT")
 
-
-    def find_adj(self, B, adj_id, scene_id, image_embeds):
-        
-        batch_adj_img = []
-        for i in range(B):
-            adj_img_embeds = []
-            for single_adj_id in adj_id[i]:
-                # print(single_adj_id, self.memory_bank.keys())
-                # single_adj_id = scene_id[i]
-                if single_adj_id in self.memory_bank:
-                    adj_img_embeds.append(self.memory_bank[single_adj_id])
-            if len(adj_img_embeds) == len(adj_id[i]):
-                adj_imgs = torch.stack(adj_img_embeds, dim=0)
-                # print(adj_imgs.shape)
-                batch_adj_img.append(adj_imgs)
-
+        return location_tokens
 
     def get_2d_sincos_pos_embed(self, embed_dim, size_h, size_w):
         """
