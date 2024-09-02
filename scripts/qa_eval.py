@@ -19,8 +19,6 @@ for i in range(0,20):
 
     answer_list = []
     gt_list = []
-
-    five_num, one_num, two_num, four_num = 0, 0, 0, 0
     try:
         with open(os.path.join(data_root,log_name,'result',epoch_name), 'r') as file:
             data = json.load(file)
@@ -28,7 +26,7 @@ for i in range(0,20):
         continue
     for data_one in data:
         question = data_one['question']
-        answer = data_one['answer']
+        answer = data_one['answer'].replace('</s>','').replace('<pad>','')
         gt_answer = data_one['gt_answer']
 
         answer_list.append(answer)
