@@ -5,6 +5,7 @@
 **Revive driving scene understanding by delving into the embodiment philosophy**
 
 <a href="https://arxiv.org/abs/2403.04593"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://opendrivelab.github.io/elm.github.io/"><img src="https://img.shields.io/badge/Project-Page-orange"></a>
 <a href="README.md">
   <img alt="ELM: v1.0" src="https://img.shields.io/badge/ELM-v1.0-blueviolet"/>
 </a>
