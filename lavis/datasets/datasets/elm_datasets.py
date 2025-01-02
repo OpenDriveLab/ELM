@@ -261,6 +261,7 @@ class ELMDataset(VQADataset, __DisplMixin):
                 self.questions.append(Question[idx])
                 self.answers.append([Answer[idx]])
                 self.images.append(image_path)
+                self.tmp_imglist.append([image_path])
 
 
     def default_ego4d(self):
@@ -315,6 +316,7 @@ class ELMDataset(VQADataset, __DisplMixin):
                         self.questions.append("Give a caption.")
                         self.answers.append([narration['narration_text'][3:]])
                         self.images.append(img_path)
+                        self.tmp_imagelist.append([img_path])
 
     def default_boxqa(self, ann_paths):
         self.annotation = json.load(open("data/box_detection_train.json", "r"))
@@ -421,7 +423,7 @@ class ELMDataset(VQADataset, __DisplMixin):
         }
 
     def __len__(self):
-        return (len(self.questions)+len(self.questions))
+        return len(self.questions)
 
     def collater(self, samples):
         # merge samples into a list for each key
@@ -518,6 +520,7 @@ class ELMDatasetEvalDataset(VQADataset, __DisplMixin):
                 self.questions.append(Question[idx])
                 self.answers.append([Answer[idx]])
                 self.images.append(image_path)
+                self.tmp_imglist.append([image_path])
 
 
 
@@ -573,6 +576,7 @@ class ELMDatasetEvalDataset(VQADataset, __DisplMixin):
                         self.questions.append("Give a caption.")
                         self.answers.append([narration['narration_text'][3:]])
                         self.images.append(img_path)
+                        self.tmp_imglist.append([img_path])
 
     def default_boxqa(self, ann_paths):
         self.annotation = json.load(open("data/box_detection_val.json", "r"))
