@@ -14,6 +14,8 @@ from lavis.models.base_model import BaseModel
 
 from lavis.models.blip2_models.blip2 import Blip2Base
 from lavis.models.blip2_models.blip2_3dvqa_t5_elm import Blip2VQAT5ELM
+from lavis.models.blip2_models.blip2_3dvqa_t5_membank import Blip2VQAT5MEMBANK
+from lavis.models.blip2_models.blip2_3dvqa_t5_lr import Blip2VQAT5LR
 
 from lavis.models.med import XBertLMHeadDecoder
 from lavis.models.vit import VisionTransformerEncoder
