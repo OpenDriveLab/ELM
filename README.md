@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> 🌟 Stay up to date at [opendrivelab.com](https://opendrivelab.com/#news)!
+
 <div id="top" align="center">
 
 # ELM: Embodied Understanding of Driving Scenarios
